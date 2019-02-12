@@ -1,9 +1,9 @@
 thrift -r -gen java Hello.thrift
 
 IDL
-Thrift 采用IDL（Interface Definition Language）来定义通用的服务接口(Hello.thrift)，然后通过Thrift提供的编译器，可以将服务接口编译成不同语言编写的代码，
+Thrift 采用IDL（Interface Definition Language）来定义通用的服务接口(Hello.thrift)，然后
+通过Thrift提供的编译器，可以将服务接口编译成不同语言编写的代码，
 通过这个方式来实现跨语言的功能。
-
 基本类型
 bool: 布尔值 对应Java中的boolean
 byte: 有符号字节 对应Java中的byte
